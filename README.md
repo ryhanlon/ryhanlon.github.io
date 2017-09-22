@@ -1,62 +1,36 @@
-# [Start Bootstrap - Business Casual](https://startbootstrap.com/template-overviews/business-casual/)
+# My Website Readme
 
-[Business Casual](http://startbootstrap.com/template-overviews/business-casual/) is a multipurpose website theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
 
-## Preview
+### Intro
 
-[![Business Casual Preview](https://startbootstrap.com/assets/img/templates/business-casual.jpg)](https://blackrockdigital.github.io/startbootstrap-business-casual/)
+Title: Rebecca York Hanlon
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-business-casual/)**
+This is a website to showcase my programming skills.
 
-## Status
+It is divided into three main parts:
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-business-casual/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-business-casual.svg)](https://www.npmjs.com/package/startbootstrap-business-casual)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-business-casual.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-business-casual)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-business-casual/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-business-casual)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-business-casual/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-business-casual?type=dev)
+   1. Web Developer projects
+   2. Application projects
+   3. Muiltimedia Artist projects
 
-## Download and Installation
+### Setup
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/business-casual/)
-* Install via npm: `npm i startbootstrap-business-casual`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-business-casual.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-business-casual)
+1. Media folders are built and filed by multiple upload functions built within the apps.models.  Visual, audio and video media is managed through the admin, built in Django.
+2. There are three types of users: 
+    a. superuser (me) --  creates and manages the storybook pages and the entire website through the admin.  
+    b. child/parent or teacher/student -- access their own bookshelf and storybooks, a merit dashboard to observe progress.  (Audio, word/sentence scrambles, and message interaction to be added at a later date.)
+    c. author (future feature)-- access his or her dashboard that monitors user interactivity with the interactive online storybook books that he or she has authored.  This publishing feature can be done multiple ways such as embedding into the author's website or maintained in the Storia library.  Both will require deployments to be further explored and decided upon.
+3. REST Framework and other useful APIs 
+4. Initial development with db_sqlite3.  As project develops move to  PostgreSQL.
+5. Deploy to AWS, AWS Elastic Beanstalk or Heroku.
 
-## Usage
+### Usage
 
-### Basic Usage
+Storia is an app to make interactive storybooks for children learning to read.  Storia can be used by native English speaking readers or EFL/ESL students learning English.  A user chooses/buys the books to be added to their bookshelf.  From here, the user clicks the cover of the storybook he or she wants to read which sends them to the opening page of the story where the user can begin at the beginning or choose a page.  
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+Each storybook page is interactive.  The user can watch a full screen video of the storypage, click and hear each word, click the avatar icon to see his or her Reading Chart that shows the users reading progress, record his or her self telling the story, navigate to other pages of the story, and message option where user sends and receives messages from parent.  
 
-### Advanced Usage
+User interactions on the storypage are stored in the database.  These are then analyzed and sorted into 'merits' that show the students progress while learning to read.  
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+The process of designing and building each storybook is built into the Django admin.  All text and assets are stored in the database.  Using templates, template tags and template variables each storybook page is designed and shown on the webpage.  Each storybook page is NOT hardcoded but compiled upon requests to the server (lots of Django fun).
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-business-casual/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/business-casual/).
-
-## Custom Builds
-
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/gh-pages/LICENSE) license.
