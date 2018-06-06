@@ -1,156 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-  <head>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<!-- removed chrome=1 due to error HTML Validator -->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rebecca York Hanlon</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
-    <title>Rebecca York Hanlon</title>
+	<!-- custom CSS-->
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+	<link rel="stylesheet" type="text/css" href="static/css/responsive.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- favicon -->
+	<link rel="icon" type="image/jpg" href="./static/img/favicon.ico">
+</head>
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+<body class="container">
+<header class="site-header" aria-label="site-navigation">
+	<img class="logo" src="./static/img/BH_logo_200px.png"
+					  srcset="./static/img/BH_logo_200px.png 1x,
+					  ./static/img/BH_logo_400px.png 2x,
+					  ./static/img/BH_logo_600px.png 3x"
+		              alt="Logo">
+	<h1 class="site-name">Rebecca York Hanlon</h1>
+	<h3 class="skills">Web Development &nbsp; | &nbsp; Data Analysis</h3>
 
-    <!-- Custom styles for this template -->
-    <link href="static/vendor/css/business-casual.css" rel="stylesheet">
+	<!-- hamburger for project information -->
+	<a id="menu" class="header-menu proj-list"><div class="menu-container" onclick="menuClick(this)">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div></a>
 
-    <!-- my custom css-->
-    <link href="static/css/normalize.css" rel="stylesheet">
-    <link href="static/css/main.css" rel="stylesheet">
-    <link href="static/css/ryhanlon.css" rel="stylesheet">
+	<nav id="drawer" class="nav site-navigation">
+		<ul class="nav-list">
+			<li class="nav-item"><a href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">Django Project: Interactive Storybook</a></li>
+			<li class="nav-item"><a href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">UX Project: Warehouse Online Sales</a></li>
+			<li class="nav-item"><a href="#">Blog: current post</a></li>
+			<li class="nav-item"><a href="https://github.com/ryhanlon/Data_Analysis_Projects/tree/master" target="_blank">Data Analysis: Gun Deaths in the US</a></li>
+			<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" target="_blank">React Project: TempConVert</a></li>
+			<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1" target="_blank">React Project: Ravenous Food App</a></li>
+		</ul>
+	</nav>
 
-  </head>
+</header>
 
-  <body>
+<!-- Project Info and links -->
+<main class="main-container">
+	<section class="proj-container project-1">
+		<img class="proj-img" src="./static/img/projects/cap_stone_djangoStoria-800px.jpg"
+							  srcset="./static/img/projects/cap_stone_djangoStoria-800px.jpg 1x,
+								  	  ./static/img/projects/cap_stone_djangoStoria-1000px.jpg 2x,
+									  ./static/img/projects/cap_stone_djangoStoria-1500px.jpg 3x"
+			                  alt="Example page of interactive storybook">
 
-    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Rebecca York Hanlon</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">Web Developer | Application Developer | Multimedia Artist</div>
+		<h2 class="proj-heading">Storia</h2><h3 class="proj-highlight"> An Interactive Storybook <br> Built with Django</h3><p class="proj-text">Web App for children to learn how to read with interactive storybooks.  It turns plain stories into interactive stories with an analyses of the child's progress.  Over 16 classes created to build the database (SQLite) and
+			HTML-Templating for the Front-end interactive presentation. Uses a REST Framework to capture user actions then store them in the database.</p>
+		<form style="display: inline" action="https://github.com/ryhanlon/Capstone_PDXCodeGuild" method="get">
+			<button class="button button git-button" type="button">GitHub</button>
+		</form>
+	</section>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+	<section class="proj-container project-2">
+		<img class="proj-img" src="./static/img/projects/cap_stone_uxDesign-800px.jpg"
+							  srcset="./static/img/projects/cap_stone_uxDesign-800px.jpg 1x,
+									  ./static/img/projects/cap_stone_uxDesign-1000px.jpg 2x,
+									  ./static/img/projects/cap_stone_uxDesign-1500px.jpg 3x"
+			                  alt="Home page of Warehouse U.X. design">
+		<h2 class="proj-heading">Warehouse</h2><h3 class="proj-highlight">A Sample of a <br>UX-Designed Website</h3><p class="proj-text">I studied "User Story Templates" to devolop a plan to update the website.  Responsive design was added by using Media Queries, Semantic HTML, CSS Grid and Flexbox. For a better Screen Reader experience, added alt tags for images, aria-role attributes, aria-labels and aria-labelled-by. </p>
+		<form style="display: inline" action="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" method="get">
+			<button class="button git-button" type="button">GitHub</button>
+		</form>
+	</section>
 
-    <div class="container">
+	<section class="proj-container project-3">
+		<img class="proj-img" src="./static/img/projects/react_tempStartPage-800px.jpg"
+							  srcset="./static/img/projects/react_tempStartPage-800px.jpg 1x,
+									  ./static/img/projects/react_tempStartPage-1000px.jpg 2x,
+									  ./static/img/projects/react_tempStartPage-1500px.jpg 3x"
+			                  alt="Homepage of interactive app to convert kelvin to fahrenheit and celsius">
+		<h2 class="proj-heading">TEMP<span class="title-highlight">CON</span>VERT</h2><h3 class="proj-highlight">Interactive App Built with React 16</h3> <p class="proj-text">TempConVert is a web app that allows the user to convert Kelvin to Celsius and Fahrenheit. This web app accepts input (K) and then posts a response based on the conversion to Fahrenheit and Celsius. The goal of this project was to transform this console-based app into a web app using React.</p>
+		<form style="display: inline" action="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" method="get">
+			<button class="button git-button" type="button">GitHub</button>
+		</form>
+	</section>
 
-      <div class="bg-faded p-4 my-4">
-        <!-- Image Carousel -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block img-fluid w-100" src="img/slide-1.jpg" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <h3 class="text-shadow">First Slide</h3>
-                <p class="text-shadow">This is the caption for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid w-100" src="img/slide-2.jpg" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <h3 class="text-shadow">Second Slide</h3>
-                <p class="text-shadow">This is the caption for the second slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img class="d-block img-fluid w-100" src="img/slide-3.jpg" alt="">
-              <div class="carousel-caption d-none d-md-block">
-                <h3 class="text-shadow">Third Slide</h3>
-                <p class="text-shadow">This is the caption for the third slide.</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-        <!-- Welcome Message -->
-        <div class="text-center mt-4">
-          <div class="text-heading text-muted text-lg">Welcome To</div>
-          <h1 class="my-2">Business Casual</h1>
-          <div class="text-heading text-muted text-lg">By
-            <strong>Start Bootstrap</strong>
-          </div>
-        </div>
-      </div>
+	<section class="proj-container project-4">
+		<img class="proj-img" src="./static/img/projects/cap_stone_reactRavenous-800px.jpg"
+			                  srcset="./static/img/projects/cap_stone_reactRavenous-800px.jpg 1x,
+			       				      ./static/img/projects/cap_stone_reactRavenous-1000px.jpg 2x,
+			                          ./static/img/projects/cap_stone_reactRavenous-1500px.jpg 3x"
+			                  alt="Homepage of Ravenous App">
+		<h2 class="proj-heading">Ravenous</h2><h3 class="proj-highlight">An Interactive App Built with React 16 & the Yelp API</h3><p class="proj-text">An interactive app using the Yelp API to find places to eat.  User can input a type of food and location for the search criteria then sort by Best Match, Highest Rated and Most Reviewed. Built using Stateful and Stateless components, passing props, mapping data and then rendering. Use of <code class="code-highlight">Fetch()</code> for the API calls. </p>
+		<form style="display: inline" action="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1" method="get">
+			<button class="button git-button" type="button">GitHub</button>
+		</form>
+	</section>
 
-      <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Build a website
-          <strong>worth visitng</strong>
-        </h2>
-        <hr class="divider">
-        <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit totam libero expedita magni est delectus pariatur aut, aperiam eveniet velit cum possimus, autem voluptas. Eum qui ut quasi voluptate blanditiis?</p>
-      </div>
+	<section class="proj-container project-5">
+		<img class="proj-img" src="./static/img/projects/da_gun_deaths-800px.jpg"
+			 			      srcset="./static/img/projects/da_gun_deaths-800px.jpg 1x,
+			        				  ./static/img/projects/da_gun_deaths-1000px.jpg 2x,
+			                          ./static/img/projects/da_gun_deaths-1448px.png 3x"
+			                  alt="Summary of Gun Deaths in America">
+		<h2 class="proj-heading">Data Analysis</h2><h3 class="proj-highlight">Gun Deaths in the US: Exploring Data Using Python</h3><p class="proj-text">This project was done in Jupyter Notebook using a dataset from FiveThirtyEight (2012 to 2014) and data from the Census.  Used CSV and Datetime modules to help sort the data. Explored the data by gender, race, and amount of deaths per month and year.</p>
+		<form style="display: inline" action="https://github.com/ryhanlon/Data_Analysis_Projects/tree/master" method="get">
+			<button class="button git-button" type="button">GitHub</button>
+		</form>
+	</section>
 
-      <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Beautiful boxes to
-          <strong>showcase your content</strong>
-        </h2>
-        <hr class="divider">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-      </div>
+	<!-- Blog content and links -->
+	<section class="blog-container blog">
+		<img class="blog-img" src="static/img/Reb_Denim2_sm.jpg"
+						      srcset="./static/img/Reb_Denim2_med.jpg"
+			                  alt="Logo">
+		<h2 class="blog-heading">Blog</h2>
+		<h3 class="blog-highlight">Code Challenge: Factorialize a Number</h3>
+		<p class="blog-text">Used a 'for' loop with the range function <code class="code-highlight">range(start, stop[,step])</code> to generate a range of numbers, starting with 1 and ending with the argument + 1. The second parameter in range() is exclusionary, so <code class="code-highlight">num + 1</code> is used to include the argument. Then multiplied each number to the next number.</p>
+		<form style="display: inline" action="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" method="get">
+			<button class="button git-button" type="button">More Posts</button>
+		</form>
+	</section>
 
-    </div>
-    <!-- /.container -->
+	<!-- Content and links for the aside, iPad Pro and wider screens -->
+	<aside class="topic-container">
+		<h2 class="topic-instructions">View Project on GitHub</h2>
+		<ul class="topics">
+			<li class="topic-item"><a href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">Django Project: Interactive Storybook</a></li>
+			<li class="topic-item"><a href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">UX Project: Warehouse Online Sales</a></li>
+			<li class="topic-item"><a href="#">Blog: Current Post</a></li>
+			<li class="topic-item"><a href="https://github.com/ryhanlon/Data_Analysis_Projects/tree/master" target="_blank">Data Analysis: Gun Deaths in the US</a></li>
+			<li class="topic-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" target="_blank">React Project: TempConVert</a></li>
+			<li class="topic-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1" target="_blank">React Project: Ravenous Food App</a></li>
+		</ul>
+	</aside>
+</main>
 
-    <footer class="bg-faded text-center py-5">
-      <div class="container">
-        <p class="m-0">Copyright &copy; ryhanlon 2017</p>
-      </div>
-    </footer>
+<footer class="footer">
+	<p class="footer-info">
+		&copy; RebeccaYHanlon 2018
+	</p>
+</footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="static/vendor/jquery/jquery.min.js"></script>
-    <script src="static/vendor/popper/popper.min.js"></script>
-    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+	<script src="./static/js/portfolio.js"></script>
 
-    <!-- custom js-->
-    <script src="static/js/ryhanlon.js"></script>
-
-  </body>
-
+</body>
 </html>

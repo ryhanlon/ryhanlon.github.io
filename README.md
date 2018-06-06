@@ -1,36 +1,57 @@
-# My Website Readme
+# Rebecca Hanlon's Portfolio Website
+##### Project for the *Front-End Web Developer Nanodegree*
+
+#### Introduction
 
 
-### Intro
+**Title**: Rebecca Hanlon's Portfolio Website
 
-Title: Rebecca York Hanlon
+This website is built to feature projects that I have developed over the past year.  It showcases each project with a brief introduction and a direct link to GitHub for further code details.
 
-This is a website to showcase my programming skills.
+Click [here](#pictures-of-responsive-design-of-website) to see pictures of the website's Responsive Design.
 
-It is divided into three main parts:
+##### Technical Components
+- CSS Grid, Flexbox and Media Queries are used to build the _responsive features_
+- `scrset` html attribute is used for image optimizations
+- JavaScript (ECMASript 6) is used for user interactions:
+    - clicking menu for the _project drawer_ to slide out,
+    - animating the _menu hamburger_ to show open and closed status
+- Semantic HTML, Aria-labels and alt tags for images are used for an enhanced Screen Reader experience
+- Code snippet for menu drawer from _Lesson 14: Common Responsive Patterns Module_
+- Code snippet for an animated hamburger icon from [w3schools](https://www.w3schools.com/howto/howto_css_menu_icon.asp)
 
-   1. Web Developer projects
-   2. Application projects
-   3. Muiltimedia Artist projects
+#### Refactoring and Adjustments made after HTML Checker and W3C CSS Validator:
+HTML:
+- `srcset` showed an error because I didn't include a descriptor, so I added `1x`, `2x`, and `3x`.
+- Removed all aria-roles `role=""`
+- Replaced `<a>` tags with `<form>` tags.  I originally wrapped the `<button>` tags inside `<a>` tags, but got an error in the W3C CSS Validator.  I found the correct way to do at Stack Overflow utilizing `<form>` tags with the _action_ attribute
 
-### Setup
+CSS:
+- error _Property `justify-self` doesn't exist: `center`
+- error _Property `justify-self` doesn't exist: `left`
+- error _Property `justify-items` doesn't exist: `center`
 
-1. Media folders are built and filed by multiple upload functions built within the apps.models.  Visual, audio and video media is managed through the admin, built in Django.
-2. There are three types of users: 
-    a. superuser (me) --  creates and manages the storybook pages and the entire website through the admin.  
-    b. child/parent or teacher/student -- access their own bookshelf and storybooks, a merit dashboard to observe progress.  (Audio, word/sentence scrambles, and message interaction to be added at a later date.)
-    c. author (future feature)-- access his or her dashboard that monitors user interactivity with the interactive online storybook books that he or she has authored.  This publishing feature can be done multiple ways such as embedding into the author's website or maintained in the Storia library.  Both will require deployments to be further explored and decided upon.
-3. REST Framework and other useful APIs 
-4. Initial development with db_sqlite3.  As project develops move to  PostgreSQL.
-5. Deploy to AWS, AWS Elastic Beanstalk or Heroku.
+I went to [MDN web docs]("https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self") to verify information on `justify-self` and this property and values are available.  This choice of property seems to be working fine as is.
+I also went to [MDN web docs]("https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items") to verify information on `justify-items` and this property and values are available.  Seems to be working fine as is.
 
-### Usage
+- `-webkit-transform` is an unknown vendor extension -- It seems that this error will show because the validator doesn't recognize it, but it can still be used.
 
-Storia is an app to make interactive storybooks for children learning to read.  Storia can be used by native English speaking readers or EFL/ESL students learning English.  A user chooses/buys the books to be added to their bookshelf.  From here, the user clicks the cover of the storybook he or she wants to read which sends them to the opening page of the story where the user can begin at the beginning or choose a page.  
+- I ignored the `background-color` error since it didn't make sense to me.
 
-Each storybook page is interactive.  The user can watch a full screen video of the storypage, click and hear each word, click the avatar icon to see his or her Reading Chart that shows the users reading progress, record his or her self telling the story, navigate to other pages of the story, and message option where user sends and receives messages from parent.  
+#### Pictures of Responsive Design of Website
+##### Phone
 
-User interactions on the storypage are stored in the database.  These are then analyzed and sorted into 'merits' that show the students progress while learning to read.  
+![](./docs/img/mobile_200px.png)
 
-The process of designing and building each storybook is built into the Django admin.  All text and assets are stored in the database.  Using templates, template tags and template variables each storybook page is designed and shown on the webpage.  Each storybook page is NOT hardcoded but compiled upon requests to the server (lots of Django fun).
+##### iPad
+![](./docs/img/ipad_400px.png)
+
+##### iPad with Open Drawer
+![](./docs/img/ipad-drawer_400px.png)
+
+##### Desk Top
+![](./docs/img/deskTop_400px.png)
+
+
+
 
