@@ -1,0 +1,208 @@
+/*---- media-query for iPad (768 x 1024) ----*/
+
+@media screen and (min-width: 767px) {
+
+    body,
+    html {
+        background: url("../img/background-1300px.jpg") fixed;
+    }
+
+    .site-header {
+        grid-template: 30% 55% 15% / 20% 60% 20%;
+        grid-template-areas: "logo name hamburger"
+                             "logo skills hamburger";
+    }
+
+    .logo {
+        width: 75px;
+    }
+
+    .site-name {
+        font-size: 2rem;
+    }
+
+    .skills {
+        font-size: 1.2rem;
+    }
+
+    .nav-item {
+        line-height: 1rem;
+        padding: 24px;
+        font-size: 1.3rem;
+    }
+
+    .proj-container {
+    grid-template: 35% 25% 25% 15% / 50% 50%;
+    grid-template-areas: "image title"
+                         "image highlight"
+                         "text text"
+                         "button button";
+    }
+
+    .blog-container {
+        grid-template: 30% 20% 35% 15% / 50% 50%;
+        grid-template-areas: "image title"
+                             "image highlight"
+                             "text text"
+                             "button button";
+    }
+
+    .proj-heading {
+        margin-bottom: 0;
+    }
+
+    .proj-highlight {
+        justify-self: center;
+        padding: 0  1.2rem;
+    }
+
+    .proj-text {
+        justify-self: left;
+        padding: 0  1.2rem;
+    }
+
+    .button {
+        /*justify-self: center;*/
+        margin: 1.2rem;
+        padding: 10px 45px;
+    }
+
+    .blog-img {
+        margin: 2.2vw;
+    }
+
+    .blog-heading {
+        margin-bottom: 0;
+    }
+
+    .blog-highlight {
+        justify-self: center;
+        padding: 0  1.2rem;
+    }
+
+    .blog-text {
+        justify-self: left;
+        padding: 0  1.2rem;
+    }
+
+    .blog-button {
+        margin-bottom: 1rem;
+    }
+
+    .header-menu {
+        padding: 2rem;
+    }
+}
+
+
+/*---- media-query for iPad Pro (1024 x 1366) ----*/
+
+@media screen and (min-width: 1023px) {
+
+    body,
+    html {
+        background: url("../img/background-1800px.jpg") fixed;
+    }
+
+    .main-container {
+        grid-template: 10% repeat(5, 16%) 10% / 60% 40%;
+        grid-template-areas: "header header"
+                             "project-1 blog-move"
+                             "project-2 blog-move"
+                             "project-5 project-list"
+                             "project-3 ."
+                             "project-4 ."
+                             "footer footer";
+    }
+
+    .site-header {
+        justify-items: start;
+        padding: 20px;
+        grid-template: 65% 35% / 20% 80% ;
+        grid-template-areas: "logo name"
+                             "logo skills";
+    }
+
+    .blog-container {
+        border: 1px solid rgba(54, 49, 39, .8);
+        background-color: rgba(54, 49, 39, .8);
+        margin: 9% 6%;
+        display: grid;
+        grid-template: 30% 20% 30% 20% / 55% 45%;
+        grid-template-areas: "image title"
+                             "highlight highlight"
+                             "text text"
+                             "button button";
+        height: 70%;
+        align-self: center;
+    }
+
+    .logo {
+        width: 100px;
+        border-radius: 50%;
+        /*background-color: rgba(33, 150, 243, 0.70);*/
+        background-color: rgba(97, 126, 158, 1);
+    }
+
+    .site-name {
+        justify-self: self-end;
+        /*padding: 0 20px;*/
+        font-size: 2.5rem;
+        margin: 10px 10px 3px;
+    }
+
+    .skills {
+        justify-self: self-end;
+        /*padding: 0 20px;*/
+        font-size: 1.7rem;
+        margin: 0 10px;
+    }
+
+    form,
+    .blog-button {
+        margin: auto;
+    }
+
+    .blog-heading {
+        font-size: 3rem;
+        margin: 3.4rem 0;
+    }
+
+    .blog-highlight {
+        align-self: end;
+    }
+
+    .blog-text {
+        padding: 0 .2rem;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .topic-container {
+        grid-area: project-list;
+        display: flex;
+        flex-direction: column;
+        height: 70%;
+        justify-content: start;
+        border: 1px solid rgba(54, 49, 39, .8);
+        background-color: rgba(54, 49, 39, .8);
+        margin: 6%;
+        padding: 10px 0 10px 10px;
+        align-self: center;
+    }
+
+    .topic-instructions {
+        padding: 10px 10px 0;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .main-container {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
