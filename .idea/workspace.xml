@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/MacBookPro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/ryhanlon.github.io.iml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/DOCS/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/DOCS/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/intro-pic.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/slide-1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/slide-2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/slide-3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/normalize.css" afterPath="$PROJECT_DIR$/static/css/normalize.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/ryhanlon.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/js/ryhanlon.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/css/business-casual.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/jquery/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/popper/popper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/vendor/popper/popper.min.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -518,7 +483,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526314922092</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Deleted the mock-up site with Bootstrap--added new site built with css grid.">
+      <created>1528250090529</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528250090529</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Deleted the mock-up site with Bootstrap--added new site built with css grid.">
+      <created>1528250241870</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528250241870</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -592,7 +571,8 @@
     <MESSAGE value="Add pictures to README.md" />
     <MESSAGE value="Added pictures." />
     <MESSAGE value="Added images." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added images." />
+    <MESSAGE value="Deleted the mock-up site with Bootstrap--added new site built with css grid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted the mock-up site with Bootstrap--added new site built with css grid." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
