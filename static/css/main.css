@@ -40,7 +40,7 @@ form {
 .main-container {
     display: grid;
     position: relative;
-    grid-template: 10% repeat(6, 13%) 10% / 1fr;
+    grid-template: 0% repeat(6, 2fr) 10% / 1fr;
     grid-template-areas: "header"
                          "project-1"
                          "project-2"
@@ -49,6 +49,8 @@ form {
                          "project-3"
                          "project-4"
                          "footer";
+
+    padding: 1rem 0;
 }
 
 
@@ -142,7 +144,7 @@ form {
 .skills {
     grid-area: skills;
     justify-self: center;
-    margin: 3px;
+    /*margin: 3px;*/
     color: #CFC9BD;
     font-size: .7rem;
 }
@@ -219,15 +221,15 @@ form {
 .proj-container {
     border: 1px solid rgba(54, 49, 39, .8);
     background-color: rgba(54, 49, 39, .8);
-    margin: 6%;
+    margin: 1rem;
     display: grid;
-    grid-template: 41% 13% 13% 13% / 100%;
+    grid-template: 30% 10% 10% 40% 10% / 100%;
     grid-template-areas: "image"
                          "title"
                          "highlight"
                          "text"
                          "button";
-    padding: 15px;
+    padding: .7rem;
     font-family: 'Alegreya', serif;
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
 
@@ -235,7 +237,7 @@ form {
 
 .project-1 {
     grid-area: project-1;
-    /*padding: 10px;*/
+    /*padding: rem;*/
 }
 
 .project-2 {
@@ -267,12 +269,14 @@ form {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     text-align: center;
+    margin: 1rem 1rem 0 1rem;
 }
 
 .proj-highlight {
     grid-area: highlight;
     justify-self: center;
     text-align: center;
+    margin-top: .5rem;
 }
 
 .proj-text {
