@@ -40,7 +40,7 @@ form {
 .main-container {
     display: grid;
     position: relative;
-    grid-template: 0% repeat(6, 2fr) 10% / 1fr;
+    grid-template: 0% repeat(6, 2fr) 0% / 1fr;
     grid-template-areas: "header"
                          "project-1"
                          "project-2"
@@ -286,32 +286,29 @@ form {
     text-align: justify;
 }
 
-.button {
+.git-button {
     grid-area: button;
-    border: 1px solid black;
     border-radius: 20px;
     justify-self: center;
-    background-color: rgba(97, 126, 158, 1);
-    box-shadow: 2px 2px 11px rgba(3, 2, 0, 0.72);
+    /*background-color: rgba(97, 126, 158, 1);*/
     font-size: 1.2rem;
-    color: rgb(232, 228, 221);
-    margin: 10px 0;
-    padding: 8px 15px;
-    outline: none;
-    transition: background-color .3s;
+    color: rgb(98, 127, 157);
+    /*margin: 10px 0;*/
+    /*padding: 8px 15px;*/
+    /*transition: background-color .3s;*/
     cursor: pointer;
+    padding: 1rem;
 }
 
-.button:hover {
-    background-color: rgb(144, 187, 232);
+a:hover {
+    /*background-color: rgb(144, 187, 232);*/
     text-decoration: underline;
-    color: rgb(79, 77, 72);
+    color: rgba(194, 125, 86, 0.6);
 }
 
-.button:active {
+a:active {
     background-color: rgba(106, 118, 131, .5);
     color: rgb(224, 160, 116);
-    box-shadow: none;
 }
 
 .title-highlight {
@@ -326,7 +323,7 @@ form {
     background-color: rgba(54, 49, 39, .8);
     margin: 6%;
     display: grid;
-    grid-template: 41% 13% 13% 13% / 50% 50%;
+    grid-template: 20% 20% 45% 13% / 50% 50%;
     grid-template-areas: "image title"
                          "highlight highlight"
                          "text text"
