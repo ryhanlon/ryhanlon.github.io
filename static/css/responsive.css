@@ -8,13 +8,14 @@
     }
 
     .site-header {
-        grid-template: 30% 55% 15% / 20% 60% 20%;
+        grid-template: 40% 60% / 20% 60% 20%;
         grid-template-areas: "logo name hamburger"
-                             "logo skills hamburger";
+                             "logo skills hamburger"
     }
 
     .logo {
-        width: 75px;
+        width: 12vw;
+        margin: auto;
     }
 
     .site-name {
@@ -28,15 +29,18 @@
     .nav-item {
         line-height: 1rem;
         padding: 24px;
-        font-size: 1.3rem;
+        font-size: 1.3rem
     }
 
     .proj-container {
-    grid-template: 35% 25% 25% 15% / 50% 50%;
-    grid-template-areas: "image title"
-                         "image highlight"
-                         "text text"
-                         "button button";
+        /*grid-template: 25% 25% 40% 10% / 50% 50%;*/
+        /*grid-template-areas: "image title"*/
+                             /*"image highlight"*/
+                             /*"text text"*/
+                             /*"button button";*/
+        /*margin: 1.5rem 3rem;*/
+        /*height: 35vh;*/
+        padding-top: 8rem;
     }
 
     .blog-container {
@@ -48,7 +52,8 @@
     }
 
     .proj-heading {
-        margin-bottom: 0;
+        margin: 2rem;
+        font-size: 2rem;
     }
 
     .proj-highlight {
@@ -58,7 +63,7 @@
 
     .proj-text {
         justify-self: left;
-        padding: 0  1.2rem;
+        padding: 1rem 1.2rem 0 1.2rem;
     }
 
     .button {

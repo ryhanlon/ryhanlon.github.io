@@ -24,10 +24,11 @@ video {
 }
 
 a {
-    grid-area: button;
+    /*grid-area: button;*/
     text-decoration: none;
     justify-self: center;
     cursor: pointer;
+    /*margin: auto;*/
 }
 
 form {
@@ -64,21 +65,21 @@ form {
     grid-area: header;
     justify-items: center;
     display: grid;
-    grid-template: 50% 50% / 20% 60% 20%;
+    grid-template: 40% 60% / 20% 60% 20%;
     grid-template-areas: "logo name hamburger"
                          "logo skills hamburger";
     box-shadow: 1px 1px 3px rgba(3, 2, 0, 0.64);
 }
 
 .logo {
-    width: 42px;
+    width: 15vw;
     border-radius: 50%;
     grid-area: logo;
     border: 1px solid rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);
     padding: .2rem;
     background-color: rgba(97, 126, 158, 1);
-
+    margin: auto;
 }
 
 .site-navigation {
@@ -222,13 +223,17 @@ form {
     border: 1px solid rgba(54, 49, 39, .8);
     background-color: rgba(54, 49, 39, .8);
     margin: 1rem;
-    display: grid;
-    grid-template: 30% 10% 10% 40% 10% / 100%;
-    grid-template-areas: "image"
-                         "title"
-                         "highlight"
-                         "text"
-                         "button";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    /*flex-wrap: wrap;*/
+    /*grid-template: 30% 10% 10% 40% 10% / 100%;*/
+    /*grid-template-areas: "image"*/
+                         /*"title"*/
+                         /*"highlight"*/
+                         /*"text"*/
+                         /*"button";*/
     padding: .7rem;
     font-family: 'Alegreya', serif;
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
@@ -289,15 +294,10 @@ form {
 .git-button {
     grid-area: button;
     border-radius: 20px;
-    justify-self: center;
-    /*background-color: rgba(97, 126, 158, 1);*/
+    align-self: center;
     font-size: 1.2rem;
     color: rgb(98, 127, 157);
-    /*margin: 10px 0;*/
-    /*padding: 8px 15px;*/
-    /*transition: background-color .3s;*/
-    cursor: pointer;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 a:hover {
