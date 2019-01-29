@@ -23,32 +23,34 @@
 </head>
 
 <body class="container">
-<header class="site-header" aria-label="site-navigation">
-	<img class="logo" src="./static/img/BH_logo_200px.png"
-					  srcset="./static/img/BH_logo_200px.png 1x,
-					  ./static/img/BH_logo_400px.png 2x,
-					  ./static/img/BH_logo_600px.png 3x"
-		              alt="Logo">
-	<h1 class="site-name">Rebecca York Hanlon</h1>
-	<h3 class="skills">Web Development &nbsp; | &nbsp; Data Analysis</h3>
+<header id="myHeader" aria-label="site-navigation">
+	<div class="site-header" >
+		<img class="logo" src="./static/img/BH_logo_200px.png"
+						  srcset="./static/img/BH_logo_200px.png 1x,
+						  ./static/img/BH_logo_400px.png 2x,
+						  ./static/img/BH_logo_600px.png 3x"
+						  alt="Logo">
+		<h1 class="site-name">Rebecca York Hanlon</h1>
+		<h3 class="skills">Web Development &nbsp; | &nbsp; Data Analysis</h3>
 
-	<!-- hamburger for project information -->
-	<a id="menu" class="header-menu proj-list"><div class="menu-container" onclick="menuClick(this)">
-		<div class="bar1"></div>
-		<div class="bar2"></div>
-		<div class="bar3"></div>
-	</div></a>
+		<!-- hamburger for project information -->
+		<a id="menu" class="header-menu proj-list"><div class="menu-container" onclick="menuClick(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div></a>
 
-	<nav id="drawer" class="nav site-navigation">
-		<ul class="nav-list">
-			<li class="nav-item"><a href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">Django Project: Interactive Storybook</a></li>
-			<li class="nav-item"><a href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">UX Project: Warehouse Online Sales</a></li>
-			<li class="nav-item"><a href="#">Blog: current post</a></li>
-			<li class="nav-item"><a href="https://github.com/ryhanlon/Data_Analysis_Projects/tree/master" target="_blank">Data Analysis: Gun Deaths in the US</a></li>
-			<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" target="_blank">React Project: TempConVert</a></li>
-			<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1" target="_blank">React Project: Ravenous Food App</a></li>
-		</ul>
-	</nav>
+		<nav id="drawer" class="nav site-navigation">
+			<ul class="nav-list">
+				<li class="nav-item"><a href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">Django Project: Interactive Storybook</a></li>
+				<li class="nav-item"><a href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">UX Project: Warehouse Online Sales</a></li>
+				<li class="nav-item"><a href="#">Blog: current post</a></li>
+				<li class="nav-item"><a href="https://github.com/ryhanlon/Data_Analysis_Projects/tree/master" target="_blank">Data Analysis: Gun Deaths in the US</a></li>
+				<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" target="_blank">React Project: TempConVert</a></li>
+				<li class="nav-item"><a href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1" target="_blank">React Project: Ravenous Food App</a></li>
+			</ul>
+		</nav>
+	</div>
 
 </header>
 
@@ -61,7 +63,9 @@
 									  ./static/img/projects/cap_stone_djangoStoria-1500px.jpg 3x"
 			                  alt="Example page of interactive storybook">
 
-		<h2 class="proj-heading">Storia</h2><h3 class="proj-highlight"> An Interactive Storybook <br> Built with Django</h3><p class="proj-text">Web App for children to learn how to read with interactive storybooks.  It turns plain stories into interactive stories with an analyses of the child's progress.  Over 16 classes created to build the database (SQLite) and
+		<h2 class="proj-heading">Storia</h2><h3 class="proj-highlight"> An Interactive Storybook
+		<br>
+		Built with Django</h3><p class="proj-text">Web App for children to learn how to read with interactive storybooks.  It turns plain stories into interactive stories with an analyses of the child's progress.  Over 16 classes created to build the database (SQLite) and
 			HTML-Templating for the Front-end interactive presentation. Uses a REST Framework to capture user actions then store them in the database.</p>
 			<a class="git-button" href="https://github.com/ryhanlon/Capstone_PDXCodeGuild">GitHub</a>
 	</section>

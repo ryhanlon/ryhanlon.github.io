@@ -1,4 +1,4 @@
-/*---- media-query for iPad (768 x 1024) ----*/
+/*---- media-query for iPad (768 x 1023) ----*/
 
 @media screen and (min-width: 767px) {
 
@@ -10,26 +10,32 @@
     .site-header {
         grid-template: 40% 60% / 20% 60% 20%;
         grid-template-areas: "logo name hamburger"
-                             "logo skills hamburger"
+                             "logo skills hamburger";
+        height: 11vh;
     }
 
     .logo {
-        width: 12vw;
+        width: 7vw;
         margin: auto;
     }
 
     .site-name {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .skills {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .nav-item {
         line-height: 1rem;
-        padding: 24px;
+        padding: 1rem;
         font-size: 1.3rem
+    }
+
+    .main-container {
+        grid-template: 3% repeat(6, 2fr) 0 / 1fr;
+
     }
 
     .proj-container {
@@ -40,7 +46,6 @@
                              /*"button button";*/
         /*margin: 1.5rem 3rem;*/
         /*height: 35vh;*/
-        padding-top: 8rem;
     }
 
     .blog-container {
@@ -50,26 +55,25 @@
                              "text text"
                              "button button";
     }
+    .proj-img {
+        height: 45vh;
+    }
 
     .proj-heading {
-        margin: 2rem;
+        margin: 1rem;
         font-size: 2rem;
     }
 
     .proj-highlight {
         justify-self: center;
         padding: 0  1.2rem;
+        margin: auto;
     }
 
     .proj-text {
         justify-self: left;
-        padding: 1rem 1.2rem 0 1.2rem;
-    }
-
-    .button {
-        /*justify-self: center;*/
-        margin: 1.2rem;
-        padding: 10px 45px;
+        margin: auto;
+        padding: 1rem 1.5rem;
     }
 
     .blog-img {
@@ -110,7 +114,7 @@
     }
 
     .main-container {
-        grid-template: 1% repeat(5, 16%) 10% / 60% 40%;
+        grid-template: 5% repeat(5, 2fr) 10% / 60% 40%;
         grid-template-areas: "header header"
                              "project-1 blog-move"
                              "project-2 blog-move"
@@ -122,10 +126,11 @@
 
     .site-header {
         justify-items: start;
-        padding: 20px;
+        padding: 1rem 1.5rem;
         grid-template: 65% 35% / 20% 80% ;
         grid-template-areas: "logo name"
                              "logo skills";
+        height: 10vh;
     }
 
     .blog-container {
@@ -138,12 +143,12 @@
                              "highlight highlight"
                              "text text"
                              "button button";
-        height: 70%;
+        /*height: 70%;*/
         align-self: center;
     }
 
     .logo {
-        width: 100px;
+        width: 5vw;
         border-radius: 50%;
         /*background-color: rgba(33, 150, 243, 0.70);*/
         background-color: rgba(97, 126, 158, 1);
@@ -152,15 +157,15 @@
     .site-name {
         justify-self: self-end;
         /*padding: 0 20px;*/
-        font-size: 2.5rem;
-        margin: 10px 10px 3px;
+        font-size: 2rem;
+        margin: 1rem;
     }
 
     .skills {
         justify-self: self-end;
         /*padding: 0 20px;*/
-        font-size: 1.7rem;
-        margin: 0 10px;
+        font-size: 1.5rem;
+        margin: 0 1rem;
     }
 
     form,
@@ -194,12 +199,16 @@
         border: 1px solid rgba(54, 49, 39, .8);
         background-color: rgba(54, 49, 39, .8);
         margin: 6%;
-        padding: 10px 0 10px 10px;
+        padding: 1rem 0 1rem 1rem;
         align-self: center;
     }
 
+    .proj-img {
+        height: 35vh;
+    }
+
     .topic-instructions {
-        padding: 10px 10px 0;
+        padding: 1rem 1rem 0;
         margin: 0;
         text-align: center;
     }
@@ -207,7 +216,19 @@
 
 @media screen and (min-width: 1400px) {
     .main-container {
+        padding-top: 4rem;
         padding-right: 2rem;
         padding-left: 2rem;
+    }
+
+    .site-header {
+        height: 13vh;
+    }
+
+    .logo {
+        width: 5vw;
+    }
+    .proj-img {
+        height: 45vh;
     }
 }

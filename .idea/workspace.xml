@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: fix anchor tags">
+    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/responsive.css" afterDir="false" />
     </list>
@@ -19,8 +20,13 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+                <state relative-caret-position="285">
+                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                  <folding>
+                    <element signature="n#img#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -32,8 +38,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/static/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="339">
-                  <caret line="229" column="19" selection-start-line="229" selection-end-line="230" />
+                <state relative-caret-position="1215">
+                  <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -41,8 +47,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="41" column="18" selection-start-line="41" selection-end-line="42" />
+                <state relative-caret-position="431">
+                  <caret line="206" column="18" selection-start-line="206" selection-start-column="18" selection-end-line="206" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -62,11 +68,14 @@
       <find>button</find>
       <find>nav a</find>
       <find>blog-button</find>
-      <find>img</find>
       <find>justify-self</find>
       <find>role</find>
       <find>menu-con</find>
       <find>form</find>
+      <find>.topic</find>
+      <find>img</find>
+      <find>p</find>
+      <find>px</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -123,6 +132,12 @@
               <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,7 +354,8 @@
       <workItem from="1547667746001" duration="1357000" />
       <workItem from="1548305032313" duration="6147000" />
       <workItem from="1548657974047" duration="109000" />
-      <workItem from="1548658088004" duration="4102000" />
+      <workItem from="1548658088004" duration="4163000" />
+      <workItem from="1548728051417" duration="8945000" />
     </task>
     <task id="LOCAL-00001" summary="Replace README.md file">
       <created>1525838116306</created>
@@ -509,23 +525,30 @@
       <option name="project" value="LOCAL" />
       <updated>1548310202691</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: responsive">
+      <created>1548662388807</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548662388808</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11715000" />
+    <option name="totallyTimeSpent" value="20721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-164" y="-1048" width="1771" height="965" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17987277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18160787" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25429553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25429553" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -567,7 +590,8 @@
     <MESSAGE value="bug: fixed doctype heading" />
     <MESSAGE value="feat: fix spacing, imgs, grid" />
     <MESSAGE value="feat: fix anchor tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fix anchor tags" />
+    <MESSAGE value="feat: responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README 2.md" />
@@ -590,13 +614,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/img/BH_logo_xs.png" />
     <entry file="file://$PROJECT_DIR$/static/img/BH_logo_xs.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/js/portfolio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/img/deskTop.png" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -637,24 +654,36 @@
     <entry file="file://$PROJECT_DIR$/static/img/projects/cap_stone_uxDesign-1500px.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#img#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="229" column="19" selection-start-line="229" selection-end-line="230" />
+        <state relative-caret-position="1215">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="41" column="18" selection-start-line="41" selection-end-line="42" />
+        <state relative-caret-position="431">
+          <caret line="206" column="18" selection-start-line="206" selection-start-column="18" selection-end-line="206" selection-end-column="18" />
         </state>
       </provider>
     </entry>

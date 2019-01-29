@@ -41,7 +41,7 @@ form {
 .main-container {
     display: grid;
     position: relative;
-    grid-template: 0% repeat(6, 2fr) 0% / 1fr;
+    grid-template: 2.5% repeat(6, 2fr) 0% / 1fr;
     grid-template-areas: "header"
                          "project-1"
                          "project-2"
@@ -58,10 +58,15 @@ form {
 /*--------------------------
            Header
 ---------------------------*/
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
 
 .site-header {
     background-color: rgba(54, 49, 39, .95);
-    padding: 10px;
+    padding: 1rem 0;
     grid-area: header;
     justify-items: center;
     display: grid;
@@ -69,10 +74,12 @@ form {
     grid-template-areas: "logo name hamburger"
                          "logo skills hamburger";
     box-shadow: 1px 1px 3px rgba(3, 2, 0, 0.64);
+    height: 9vh;
+
 }
 
 .logo {
-    width: 15vw;
+    width: 7vw;
     border-radius: 50%;
     grid-area: logo;
     border: 1px solid rgba(207, 201, 189, 0.5);
@@ -137,7 +144,7 @@ form {
 .site-name {
     grid-area: name;
     justify-self: center;
-    margin-bottom: 0;
+    margin: auto;
     color: #CFC9BD;
     font-size: 1.2rem;
 }
@@ -184,7 +191,7 @@ form {
     width: 100%;
     text-align: left;
     line-height: 1rem;
-    padding: 24px;
+    padding: 1rem;
     font-size: 1rem;
 }
 
@@ -199,7 +206,7 @@ form {
     background-color: rgb(76, 98, 122);
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
     border-radius: 20px;
-    padding: 8px 15px;
+    padding: 1rem;
     text-decoration: underline;
     color: rgb(232, 228, 221);
 }
@@ -224,7 +231,7 @@ form {
     background-color: rgba(54, 49, 39, .8);
     margin: 1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-content: center;
     /*flex-wrap: wrap;*/
@@ -262,14 +269,15 @@ form {
 }
 
 .proj-img {
-    grid-area: image;
+    /*grid-area: image;*/
     justify-self: center;
     border: 4px inset rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);
+    height: 30vh;
 }
 
 .proj-heading {
-    grid-area: title;
+    /*grid-area: title;*/
     justify-self: center;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
@@ -278,26 +286,27 @@ form {
 }
 
 .proj-highlight {
-    grid-area: highlight;
+    /*grid-area: highlight;*/
     justify-self: center;
     text-align: center;
     margin-top: .5rem;
 }
 
 .proj-text {
-    grid-area: text;
+    /*grid-area: text;*/
     justify-self: left;
     line-height: 1.5;
     text-align: justify;
 }
 
 .git-button {
-    grid-area: button;
-    border-radius: 20px;
+    /*grid-area: button;*/
+    /*border-radius: 20px;*/
     align-self: center;
     font-size: 1.2rem;
     color: rgb(98, 127, 157);
-    padding-top: 1rem;
+    padding: 1rem;
+    margin: auto;
 }
 
 a:hover {
@@ -328,7 +337,7 @@ a:active {
                          "highlight highlight"
                          "text text"
                          "button button";
-    padding: 15px;
+    padding: 1rem;
     font-family: 'Lato', sans-serif;
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
 }
@@ -375,7 +384,7 @@ a:active {
 .code-highlight {
     background-color: rgba(204, 159, 201, .5);
     border-radius: 5px;
-    padding: 2px;
+    padding: .5rem;
 }
 
 
@@ -389,7 +398,7 @@ a:active {
 
 .topics {
     list-style-type: none;
-    padding: 5px;
+    padding: 1rem;
 }
 
 .topic-item {
@@ -405,7 +414,7 @@ a:active {
     background-color: rgb(76, 98, 122);
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
     border-radius: 20px;
-    padding: 8px 15px;
+    padding: .5rem .7rem;
     text-decoration: underline;
     color: rgb(232, 228, 221);
 }
@@ -424,5 +433,5 @@ a:active {
     background-color: rgba(54, 49, 39, .95);
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 1rem;
 }
