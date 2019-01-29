@@ -114,7 +114,7 @@
     }
 
     .main-container {
-        grid-template: 5% repeat(5, 2fr) 10% / 60% 40%;
+        grid-template: 3% repeat(5, 2fr) 10% / 60% 40%;
         grid-template-areas: "header header"
                              "project-1 blog-move"
                              "project-2 blog-move"
@@ -143,7 +143,7 @@
                              "highlight highlight"
                              "text text"
                              "button button";
-        /*height: 70%;*/
+        height: 70%;
         align-self: center;
     }
 
