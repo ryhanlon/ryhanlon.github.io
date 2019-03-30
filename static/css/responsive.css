@@ -118,9 +118,11 @@
         grid-template-areas: "header header"
                              "project-1 blog-move"
                              "project-2 blog-move"
-                             "project-5 project-list"
-                             "project-3 ."
+                             "project-3 project-list"
                              "project-4 ."
+                             "project-5 ."
+                             "project-6 ."
+                             "project-7 ."
                              "footer footer";
     }
 

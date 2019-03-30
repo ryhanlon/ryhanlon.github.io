@@ -24,21 +24,26 @@
 
 <body class="container">
 <header id="myHeader" aria-label="site-navigation">
-	<div class="site-header" >
+	<div class="site-header">
 		<img class="logo" src="./static/img/BH_logo_200px.png"
 						  srcset="./static/img/BH_logo_200px.png 1x,
 						  ./static/img/BH_logo_400px.png 2x,
 						  ./static/img/BH_logo_600px.png 3x"
 						  alt="Logo">
-		<h1 class="site-name">Rebecca York Hanlon</h1>
-		<h3 class="skills">Web Development &nbsp; | &nbsp; Data Analysis</h3>
+
+		<section class="name-skills-container">
+			<h1 class="site-name">Rebecca York Hanlon</h1>
+			<h3 class="skills">Web Development &nbsp; | &nbsp; Data Analysis</h3>
+		</section>
 
 		<!-- hamburger for project information -->
-		<a id="menu" class="header-menu proj-list"><div class="menu-container" onclick="menuClick(this)">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-		</div></a>
+		<a id="menu" class="header-menu proj-list">
+			<div class="menu-container" onclick="menuClick(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</a>
 
 		<nav id="drawer" class="nav site-navigation">
 			<ul class="nav-list">
@@ -67,39 +72,72 @@
 		<br>
 		Built with Django</h3><p class="proj-text">Web App for children to learn how to read with interactive storybooks.  It turns plain stories into interactive stories with an analyses of the child's progress.  Over 16 classes created to build the database (SQLite) and
 			HTML-Templating for the Front-end interactive presentation. Uses a REST Framework to capture user actions then store them in the database.</p>
-			<a class="git-button" href="https://github.com/ryhanlon/Capstone_PDXCodeGuild">GitHub</a>
+			<a class="git-button" href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">GitHub</a>
 	</section>
 
-	<section class="proj-container project-2">
+		<section class="proj-container project-2">
+		<img class="proj-img" src="./static/img/projects/myNeighborhood.png" alt="Example of My Neighborhood ">
+							  <!--srcset="./static/img/projects/cap_stone_uxDesign-800px.jpg 1x,-->
+									  <!--./static/img/projects/cap_stone_uxDesign-1000px.jpg 2x,-->
+									  <!--./static/img/projects/cap_stone_uxDesign-1500px.jpg 3x"-->
+
+		<h2 class="proj-heading">My Neighborhood</h2><h3 class="proj-highlight">A React Project</h3><p class="proj-text">My Neighborhood App uses the user's current position to find business and government offices near his or her current location using Google Maps JavaScript API.  FourSquare API is used to get the venue and the venue location.</p>
+		<a class="git-button" href="https://github.com/ryhanlon/my_neighborhood" target="_blank">GitHub</a>
+
+	</section>
+
+			<section class="proj-container project-3">
+		<img class="proj-img" src="./static/img/projects/myReads.png" alt="Example of My Reads App">
+							  <!--srcset="./static/img/projects/cap_stone_uxDesign-800px.jpg 1x,-->
+									  <!--./static/img/projects/cap_stone_uxDesign-1000px.jpg 2x,-->
+									  <!--./static/img/projects/cap_stone_uxDesign-1500px.jpg 3x"-->
+
+		<h2 class="proj-heading">My Reads</h2><h3 class="proj-highlight">A React Project</h3><p class="proj-text">My Reads App creates a bookshelf for storing books.  The user can search for books then choose the book he or she wants to read and add them to the Currently Reading Shelf, Want to Read Shelf or the Read Shelf.</p>
+		<a class="git-button" href="https://github.com/ryhanlon/my_reads_app" target="_blank">GitHub</a>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="proj-container project-4">
 		<img class="proj-img" src="./static/img/projects/cap_stone_uxDesign-800px.jpg"
 							  srcset="./static/img/projects/cap_stone_uxDesign-800px.jpg 1x,
 									  ./static/img/projects/cap_stone_uxDesign-1000px.jpg 2x,
 									  ./static/img/projects/cap_stone_uxDesign-1500px.jpg 3x"
 			                  alt="Home page of Warehouse U.X. design">
 		<h2 class="proj-heading">Warehouse</h2><h3 class="proj-highlight">A Sample of a <br>UX-Designed Website</h3><p class="proj-text">I studied "User Story Templates" to devolop a plan to update the website.  Responsive design was added by using Media Queries, Semantic HTML, CSS Grid and Flexbox. For a better Screen Reader experience, added alt tags for images, aria-role attributes, aria-labels and aria-labelled-by. </p>
-		<a class="git-button" href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse">GitHub</a>
+		<a class="git-button" href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">GitHub</a>
 
 	</section>
 
-	<section class="proj-container project-3">
+	<section class="proj-container project-5">
 		<img class="proj-img" src="./static/img/projects/react_tempStartPage-800px.jpg"
 							  srcset="./static/img/projects/react_tempStartPage-800px.jpg 1x,
 									  ./static/img/projects/react_tempStartPage-1000px.jpg 2x,
 									  ./static/img/projects/react_tempStartPage-1500px.jpg 3x"
 			                  alt="Homepage of interactive app to convert kelvin to fahrenheit and celsius">
 		<h2 class="proj-heading">TEMP<span class="title-highlight">CON</span>VERT</h2><h3 class="proj-highlight">Interactive App Built with React 16</h3> <p class="proj-text">TempConVert is a web app that allows the user to convert Kelvin to Celsius and Fahrenheit. This web app accepts input (K) and then posts a response based on the conversion to Fahrenheit and Celsius. The goal of this project was to transform this console-based app into a web app using React.</p>
-		<a class="git-button" href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter">GitHub</a>
+		<a class="git-button" href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/tempconverter" target="_blank">GitHub</a>
 
 	</section>
 
-	<section class="proj-container project-4">
+	<section class="proj-container project-6">
 		<img class="proj-img" src="./static/img/projects/cap_stone_reactRavenous-800px.jpg"
 			                  srcset="./static/img/projects/cap_stone_reactRavenous-800px.jpg 1x,
 			       				      ./static/img/projects/cap_stone_reactRavenous-1000px.jpg 2x,
 			                          ./static/img/projects/cap_stone_reactRavenous-1500px.jpg 3x"
 			                  alt="Homepage of Ravenous App">
 		<h2 class="proj-heading">Ravenous</h2><h3 class="proj-highlight">An Interactive App Built with React 16 & the Yelp API</h3><p class="proj-text">An interactive app using the Yelp API to find places to eat.  User can input a type of food and location for the search criteria then sort by Best Match, Highest Rated and Most Reviewed. Built using Stateful and Stateless components, passing props, mapping data and then rendering. Use of <code class="code-highlight">Fetch()</code> for the API calls. </p>
-		<a class="git-button" href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/proRavenous-1/ravenous_1">GitHub</a>
+		<a class="git-button" href="https://github.com/ryhanlon/JavaScript-CodeAcademy/tree/master/ravenous_1" target="_blank">GitHub</a>
 
 	</section>
 
@@ -128,7 +166,7 @@
 
 	<!-- Content and links for the aside, iPad Pro and wider screens -->
 	<aside class="topic-container">
-		<h2 class="topic-instructions">View Project on GitHub</h2>
+		<h2 class="topic-instructions">View Projects on GitHub</h2>
 		<ul class="topics">
 			<li class="topic-item"><a href="https://github.com/ryhanlon/Capstone_PDXCodeGuild" target="_blank">Django Project: Interactive Storybook</a></li>
 			<li class="topic-item"><a href="https://github.com/ryhanlon/Website-UIs/tree/master/capstone_wareHouse" target="_blank">UX Project: Warehouse Online Sales</a></li>

@@ -8,6 +8,8 @@ font-family: 'Indie Flower', cursive;
 
 body,
 html {
+    width: 100vw;
+    height: auto;
     margin: 0;
     padding: 0;
     background: url("../img/background-800px.jpg") fixed;
@@ -39,19 +41,22 @@ form {
 }
 
 .main-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-    grid-template: 2.5% repeat(6, 2fr) 0% / 1fr;
-    grid-template-areas: "header"
-                         "project-1"
-                         "project-2"
-                         "blog-move"
-                         "project-5"
-                         "project-3"
-                         "project-4"
-                         "footer";
+    /*grid-template: 2.5% repeat(6, 2fr) 0% / 1fr;*/
+    /*grid-template-areas: "header"*/
+                         /*"project-1"*/
+                         /*"project-2"*/
+                         /*"blog-move"*/
+                         /*"project-5"*/
+                         /*"project-3"*/
+                         /*"project-4"*/
+                         /*"footer";*/
 
-    padding: 1rem 0;
+    /*padding: 1rem 0;*/
 }
 
 
@@ -68,20 +73,24 @@ header {
     background-color: rgba(54, 49, 39, .95);
     padding: 1rem 0;
     grid-area: header;
-    justify-items: center;
     display: grid;
-    grid-template: 40% 60% / 20% 60% 20%;
-    grid-template-areas: "logo name hamburger"
-                         "logo skills hamburger";
+    grid-template: 1fr / 1fr 3fr 1fr;
+    grid-template-areas: "logo name-ski hamburger";
+                         /*"logo skills hamburger";*/
     box-shadow: 1px 1px 3px rgba(3, 2, 0, 0.64);
-    height: 9vh;
+    /*height: 9vh;*/
 
 }
 
 .logo {
-    width: 7vw;
-    border-radius: 50%;
     grid-area: logo;
+    justify-self: center;
+    align-self: center;
+
+    max-width: 100%;
+    height: 80%;
+    display: block;
+    border-radius: 50%;
     border: 1px solid rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);
     padding: .2rem;
@@ -90,9 +99,19 @@ header {
 }
 
 .site-navigation {
-    grid-area: hamburger;
     /*color: #CFC9BD;*/
     font-size: 2.4rem;
+}
+#menu {
+    grid-area: hamburger;
+    justify-self: center;
+    align-self: center;
+}
+
+.name-skills-container {
+    grid-area: name-ski;
+    justify-self: center;
+    align-self: center;
 }
 
 .menu-container {
@@ -142,17 +161,19 @@ header {
 /*---- Name and Skills ----*/
 
 .site-name {
-    grid-area: name;
-    justify-self: center;
+    /*grid-area: name;*/
+    /*justify-self: center;*/
+    /*align-self: center;*/
     margin: auto;
     color: #CFC9BD;
     font-size: 1.2rem;
 }
 
 .skills {
-    grid-area: skills;
-    justify-self: center;
-    /*margin: 3px;*/
+    /*grid-area: skills;*/
+    /*justify-self: center;*/
+    /*align-self: center;*/
+    margin: 3px;
     color: #CFC9BD;
     font-size: .7rem;
 }
@@ -162,8 +183,7 @@ header {
 .header-menu {
     display: inline-block;
     position: absolute;
-    right: 0;
-    padding: 1rem;
+    right: 1rem;
 }
 
 .nav {
@@ -250,6 +270,7 @@ header {
 .project-1 {
     grid-area: project-1;
     /*padding: rem;*/
+    margin-top: 30%;
 }
 
 .project-2 {
@@ -267,6 +288,18 @@ header {
 .project-5 {
     grid-area: project-5;
 }
+
+.project-6 {
+    grid-area: project-6;
+}
+
+.project-7 {
+    grid-area: project-7;
+}
+
+
+
+
 
 .proj-img {
     /*grid-area: image;*/
