@@ -364,12 +364,13 @@ a:active {
     display: grid;
     grid-template: 20% 20% 45% 13% / 50% 50%;
     grid-template-areas: "image title"
-                         "highlight highlight"
+                         "image highlight"
                          "text text"
                          "button button";
     padding: 1rem;
     font-family: 'Lato', sans-serif;
     box-shadow: 2px 2px 5px rgba(3, 2, 0, 0.64);
+    height: auto;
 }
 
 .blog {
@@ -379,7 +380,7 @@ a:active {
 .blog-img {
     grid-area: image;
     justify-self: center;
-    width: 25vw;
+    /*width: 20vw;*/
     border-radius: 50%;
     border: 2px solid rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);

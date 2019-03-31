@@ -75,19 +75,19 @@
         margin-top: 0%;
     }
 
-    .blog-container {
-        border: 1px solid rgba(54, 49, 39, .8);
-        background-color: rgba(54, 49, 39, .8);
-        margin: 9% 6%;
-        display: grid;
-        grid-template: 30% 20% 30% 20% / 55% 45%;
-        grid-template-areas: "image title"
-                             "highlight highlight"
-                             "text text"
-                             "button button";
-        height: auto;
-        /*align-self: center;*/
-    }
+    /*.blog-container {*/
+        /*border: 1px solid rgba(54, 49, 39, .8);*/
+        /*background-color: rgba(54, 49, 39, .8);*/
+        /*margin: 9% 6%;*/
+        /*display: grid;*/
+        /*grid-template: 30% 20% 30% 20% / 55% 45%;*/
+        /*grid-template-areas: "image title"*/
+                             /*"highlight highlight"*/
+                             /*"text text"*/
+                             /*"button button";*/
+        /*!*height: auto;*!*/
+        /*!*align-self: center;*!*/
+    /*}*/
 
     .blog-button {
 
@@ -128,27 +128,27 @@
         /*padding: 1rem 1.5rem;*/
     /*}*/
 
-    .blog-img {
-        margin: 2.2vw;
-    }
+    /*.blog-img {*/
+        /*margin: 2.2vw;*/
+    /*}*/
 
-    .blog-heading {
-        margin-bottom: 0;
-    }
+    /*.blog-heading {*/
+        /*margin-bottom: 0;*/
+    /*}*/
 
-    .blog-highlight {
-        justify-self: center;
-        padding: 0  1.2rem;
-    }
+    /*.blog-highlight {*/
+        /*justify-self: center;*/
+        /*padding: 0  1.2rem;*/
+    /*}*/
 
-    .blog-text {
-        justify-self: left;
-        padding: 0  1.2rem;
-    }
+    /*.blog-text {*/
+        /*justify-self: left;*/
+        /*padding: 0  1.2rem;*/
+    /*}*/
 
-    .blog-button {
-        margin-bottom: 1rem;
-    }
+    /*.blog-button {*/
+        /*margin-bottom: 1rem;*/
+    /*}*/
 }
 
 
@@ -267,9 +267,9 @@
         /*align-self: center;*/
     /*}*/
 
-    .proj-img {
-        height: 35vh;
-    }
+    /*.proj-img {*/
+        /*height: 35vh;*/
+    /*}*/
 
     .topic-instructions {
         padding: 1rem 1rem 0;
@@ -292,7 +292,7 @@
     /*.logo {*/
         /*width: 5vw;*/
     /*}*/
-    .proj-img {
-        height: 45vh;
-    }
+    /*.proj-img {*/
+        /*height: 45vh;*/
+    /*}*/
 }
