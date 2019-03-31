@@ -1,44 +1,53 @@
-/*---- media-query for iPad (768 x 1023) ----*/
+/*---- Small devices (landscape phones, 576px and up) ----*/
+@media (min-width: 576px) {
+    .project-1 {
+        /*margin-top: 17%;*/
+    }
+}
 
-@media screen and (min-width: 767px) {
+
+
+/*---- Medium devices (tablets, 768px and up) ----*/
+@media screen and (min-width: 768px) {
 
     body,
     html {
         background: url("../img/background-1300px.jpg") fixed;
     }
 
-    .site-header {
-        grid-template: 40% 60% / 20% 60% 20%;
-        grid-template-areas: "logo name hamburger"
-                             "logo skills hamburger";
-        height: 11vh;
-    }
+    /*.site-header {*/
+        /*grid-template: 40% 60% / 20% 60% 20%;*/
+        /*grid-template-areas: "logo name hamburger"*/
+                             /*"logo skills hamburger";*/
+        /*height: 11vh;*/
+    /*}*/
 
-    .logo {
-        width: 7vw;
-        margin: auto;
-    }
+    /*.logo {*/
+        /*width: 7vw;*/
+        /*margin: auto;*/
+    /*}*/
 
-    .site-name {
-        font-size: 1.5rem;
-    }
+    /*.site-name {*/
+        /*font-size: 1.5rem;*/
+    /*}*/
 
-    .skills {
-        font-size: 1rem;
-    }
+    /*.skills {*/
+        /*font-size: 1rem;*/
+    /*}*/
 
-    .nav-item {
-        line-height: 1rem;
-        padding: 1rem;
-        font-size: 1.3rem
-    }
+    /*.nav-item {*/
+        /*line-height: 1rem;*/
+        /*padding: 1rem;*/
+        /*font-size: 1.3rem*/
+    /*}*/
 
-    .main-container {
-        grid-template: 3% repeat(6, 2fr) 0 / 1fr;
+    /*.main-container {*/
+        /*display: grid;*/
+        /*grid-template: 3% repeat(6, 2fr) 0 / 1fr;*/
 
-    }
+    /*}*/
 
-    .proj-container {
+    /*.proj-container {*/
         /*grid-template: 25% 25% 40% 10% / 50% 50%;*/
         /*grid-template-areas: "image title"*/
                              /*"image highlight"*/
@@ -46,35 +55,78 @@
                              /*"button button";*/
         /*margin: 1.5rem 3rem;*/
         /*height: 35vh;*/
+    /*}*/
+
+    .main-container {
+        display: grid;
+        grid-template: 2% repeat(6, 2fr) 10% / 50% 50%;
+        grid-template-areas: "header header"
+                             "project-1 blog-move"
+                             "project-2 project-list"
+                             "project-3 ."
+                             "project-4 ."
+                             "project-5 ."
+                             "project-6 ."
+                             "project-7 ."
+                             "footer footer";
+    }
+
+    .project-1 {
+        margin-top: 0%;
     }
 
     .blog-container {
-        grid-template: 30% 20% 35% 15% / 50% 50%;
+        border: 1px solid rgba(54, 49, 39, .8);
+        background-color: rgba(54, 49, 39, .8);
+        margin: 9% 6%;
+        display: grid;
+        grid-template: 30% 20% 30% 20% / 55% 45%;
         grid-template-areas: "image title"
-                             "image highlight"
+                             "highlight highlight"
                              "text text"
                              "button button";
-    }
-    .proj-img {
-        height: 45vh;
-    }
-
-    .proj-heading {
-        margin: 1rem;
-        font-size: 2rem;
+        height: auto;
+        /*align-self: center;*/
     }
 
-    .proj-highlight {
-        justify-self: center;
-        padding: 0  1.2rem;
-        margin: auto;
+    .blog-button {
+
     }
 
-    .proj-text {
-        justify-self: left;
-        margin: auto;
-        padding: 1rem 1.5rem;
+
+    .topic-container {
+        grid-area: project-list;
+        display: flex;
+        flex-direction: column;
+        /*height: 70%;*/
+        justify-content: start;
+        border: 1px solid rgba(54, 49, 39, .8);
+        background-color: rgba(54, 49, 39, .8);
+        margin: 6%;
+        padding: 1rem 0 1rem 1rem;
+        align-self: center;
     }
+
+    /*.proj-img {*/
+        /*height: 45vh;*/
+    /*}*/
+
+    /*.proj-heading {*/
+        /*margin: 1rem;*/
+        /*font-size: 2rem;*/
+    /*}*/
+
+    /*.proj-highlight {*/
+        /*justify-self: center;*/
+        /*padding: 0  1.2rem;*/
+        /*margin: auto;*/
+    /*}*/
+
+    /*.proj-text {*/
+        /*justify-self: left;*/
+        /*margin: auto;*/
+        /*padding: 1rem 1.5rem;*/
+    /*}*/
 
     .blog-img {
         margin: 2.2vw;
@@ -97,12 +149,21 @@
     .blog-button {
         margin-bottom: 1rem;
     }
-
-    .header-menu {
-        padding: 2rem;
-    }
 }
 
+
+/*----- Large devices (desktops, 992px and up) -----*/
+@media (min-width: 992px) {
+
+}
+
+
+
+
+/*----- Extra large devices (large desktops, 1200px and up) -----*/
+@media (min-width: 1200px) {
+
+}
 
 /*---- media-query for iPad Pro (1024 x 1366) ----*/
 
@@ -113,97 +174,98 @@
         background: url("../img/background-1800px.jpg") fixed;
     }
 
-    .main-container {
-        grid-template: 3% repeat(5, 2fr) 10% / 60% 40%;
-        grid-template-areas: "header header"
-                             "project-1 blog-move"
-                             "project-2 blog-move"
-                             "project-3 project-list"
-                             "project-4 ."
-                             "project-5 ."
-                             "project-6 ."
-                             "project-7 ."
-                             "footer footer";
-    }
+    /*.main-container {*/
+        /*display: grid;*/
+        /*grid-template: 3% repeat(6, 2fr) 10% / 60% 40%;*/
+        /*grid-template-areas: "header header"*/
+                             /*"project-1 blog-move"*/
+                             /*"project-2 project-list"*/
+                             /*"project-3 ."*/
+                             /*"project-4 ."*/
+                             /*"project-5 ."*/
+                             /*"project-6 ."*/
+                             /*"project-7 ."*/
+                             /*"footer footer";*/
+    /*}*/
 
-    .site-header {
-        justify-items: start;
-        padding: 1rem 1.5rem;
-        grid-template: 65% 35% / 20% 80% ;
-        grid-template-areas: "logo name"
-                             "logo skills";
-        height: 10vh;
-    }
+    /*.site-header {*/
+        /*justify-items: start;*/
+        /*padding: 1rem 1.5rem;*/
+        /*!*grid-template: 65% 35% / 20% 80% ;*!*/
+        /*!*grid-template-areas: "logo name"*!*/
+                             /*!*"logo skills";*!*/
+        /*!*height: 10vh;*!*/
+    /*}*/
 
-    .blog-container {
-        border: 1px solid rgba(54, 49, 39, .8);
-        background-color: rgba(54, 49, 39, .8);
-        margin: 9% 6%;
-        display: grid;
-        grid-template: 30% 20% 30% 20% / 55% 45%;
-        grid-template-areas: "image title"
-                             "highlight highlight"
-                             "text text"
-                             "button button";
-        height: 70%;
-        align-self: center;
-    }
+    /*.blog-container {*/
+        /*border: 1px solid rgba(54, 49, 39, .8);*/
+        /*background-color: rgba(54, 49, 39, .8);*/
+        /*margin: 9% 6%;*/
+        /*display: grid;*/
+        /*grid-template: 30% 20% 30% 20% / 55% 45%;*/
+        /*grid-template-areas: "image title"*/
+                             /*"highlight highlight"*/
+                             /*"text text"*/
+                             /*"button button";*/
+        /*!*height: 70%;*!*/
+        /*align-self: center;*/
+    /*}*/
 
-    .logo {
-        width: 5vw;
-        border-radius: 50%;
-        /*background-color: rgba(33, 150, 243, 0.70);*/
-        background-color: rgba(97, 126, 158, 1);
-    }
+    /*.logo {*/
+        /*width: 5vw;*/
+        /*border-radius: 50%;*/
+        /*!*background-color: rgba(33, 150, 243, 0.70);*!*/
+        /*background-color: rgba(97, 126, 158, 1);*/
+    /*}*/
 
-    .site-name {
-        justify-self: self-end;
-        /*padding: 0 20px;*/
-        font-size: 1.7rem;
-        margin: 1rem;
-    }
+    /*.site-name {*/
+        /*justify-self: self-end;*/
+        /*!*padding: 0 20px;*!*/
+        /*font-size: 1.7rem;*/
+        /*margin: 1rem;*/
+    /*}*/
 
-    .skills {
-        justify-self: self-end;
-        /*padding: 0 20px;*/
-        /*font-size: 1.5rem;*/
-        margin: 0 1rem;
-    }
+    /*.skills {*/
+        /*justify-self: self-end;*/
+        /*!*padding: 0 20px;*!*/
+        /*!*font-size: 1.5rem;*!*/
+        /*margin: 0 1rem;*/
+    /*}*/
 
-    form,
-    .blog-button {
-        margin: auto;
-    }
+    /*form,*/
+    /*.blog-button {*/
+        /*margin: auto;*/
+    /*}*/
 
-    .blog-heading {
-        font-size: 3rem;
-        margin: 3.4rem 0;
-    }
+    /*.blog-heading {*/
+        /*font-size: 3rem;*/
+        /*margin: 3.4rem 0;*/
+    /*}*/
 
-    .blog-highlight {
-        align-self: end;
-    }
+    /*.blog-highlight {*/
+        /*align-self: end;*/
+    /*}*/
 
-    .blog-text {
-        padding: 0 .2rem;
-    }
+    /*.blog-text {*/
+        /*padding: 0 .2rem;*/
+    /*}*/
 
-    .header-menu {
-        display: none;
-    }
+    /*.header-menu {*/
+        /*display: none;*/
+    /*}*/
 
-    .topic-container {
-        grid-area: project-list;
-        display: flex;
-        flex-direction: column;
-        height: 70%;
-        justify-content: start;
-        border: 1px solid rgba(54, 49, 39, .8);
-        background-color: rgba(54, 49, 39, .8);
-        margin: 6%;
-        padding: 1rem 0 1rem 1rem;
-        align-self: center;
-    }
+    /*.topic-container {*/
+        /*grid-area: project-list;*/
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*height: 70%;*/
+        /*justify-content: start;*/
+        /*border: 1px solid rgba(54, 49, 39, .8);*/
+        /*background-color: rgba(54, 49, 39, .8);*/
+        /*margin: 6%;*/
+        /*padding: 1rem 0 1rem 1rem;*/
+        /*align-self: center;*/
+    /*}*/
 
     .proj-img {
         height: 35vh;
@@ -223,13 +285,13 @@
         padding-left: 2rem;
     }
 
-    .site-header {
-        height: 13vh;
-    }
+    /*.site-header {*/
+        /*height: 13vh;*/
+    /*}*/
 
-    .logo {
-        width: 5vw;
-    }
+    /*.logo {*/
+        /*width: 5vw;*/
+    /*}*/
     .proj-img {
         height: 45vh;
     }
