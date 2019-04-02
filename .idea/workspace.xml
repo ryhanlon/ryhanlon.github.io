@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: mobile-responsive, tablets and desktop">
+    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: links on modal window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/responsive.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,8 +91,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="23" />
+    <option name="x" value="264" />
+    <option name="y" value="-978" />
     <option name="width" value="1304" />
     <option name="height" value="877" />
   </component>
@@ -365,7 +362,7 @@
       <workItem from="1553740560381" duration="508000" />
       <workItem from="1553749779487" duration="2000" />
       <workItem from="1553965946893" duration="10592000" />
-      <workItem from="1554171752252" duration="3797000" />
+      <workItem from="1554171752252" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="Replace README.md file">
       <created>1525838116306</created>
@@ -591,15 +588,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554000401741</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feat: links on modal window">
+      <created>1554175638969</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1554175638969</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38729000" />
+    <option name="totallyTimeSpent" value="38757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="23" width="1304" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.11229315" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -653,7 +656,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added media queries and adjustments for header.  Hamburger is functional and styled." />
     <MESSAGE value="Used grid css for project sections, styled buttons." />
     <MESSAGE value="Built hamburger that is animated showing X when open.  Connected to the drawer.  Now drawer closes and the bars return to original position when X is clicked and when screen is clicked." />
     <MESSAGE value="Styled contents of menu drawer, styled footer.  Further refined responsiveness: blog, projects, drawer/menu." />
@@ -678,7 +680,8 @@
     <MESSAGE value="bug: fix link for ravenous project" />
     <MESSAGE value="feat: mobile-responsive" />
     <MESSAGE value="feat: mobile-responsive, tablets and desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: mobile-responsive, tablets and desktop" />
+    <MESSAGE value="feat: links on modal window" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: links on modal window" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README 2.md" />
