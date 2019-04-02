@@ -267,7 +267,7 @@ header {
 
 }
 
-.project-1 {
+#project-1 {
     grid-area: project-1;
     /*padding: rem;*/
     margin-top: 100px;
@@ -295,6 +295,10 @@ header {
 
 .project-7 {
     grid-area: project-7;
+}
+
+.project-8 {
+    grid-area: project-8;
 }
 
 .proj-img {
