@@ -366,6 +366,8 @@ a:active {
     background-color: rgba(54, 49, 39, .8);
     margin: 6%;
     display: grid;
+    justify-content: center;
+    align-items: center;
     grid-template: 20% 20% 45% 13% / 50% 50%;
     grid-template-areas: "image title"
                          "image highlight"
@@ -388,6 +390,7 @@ a:active {
     border-radius: 50%;
     border: 2px solid rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);
+
 }
 
 .blog-heading {
@@ -406,7 +409,7 @@ a:active {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     letter-spacing: 1px;
-    font-size: 1.4rem;
+    /*font-size: 1.4rem;*/
 }
 
 .blog-text {
@@ -420,6 +423,10 @@ a:active {
     background-color: rgba(204, 159, 201, .5);
     border-radius: 5px;
     padding: .5rem;
+}
+
+.blog-button {
+    justify-self: center;
 }
 
 
@@ -438,7 +445,7 @@ a:active {
 
 .topic-item {
     line-height: 2.7;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;*/
 }
 
 .topic-item a {

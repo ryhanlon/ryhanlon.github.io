@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: links on modal window">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/responsive.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
+            <state relative-caret-position="353">
+              <caret line="445" column="13" lean-forward="true" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -24,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="162">
+              <caret line="56" column="215" selection-start-line="56" selection-start-column="215" selection-end-line="56" selection-end-column="215" />
             </state>
           </provider>
         </entry>
@@ -33,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="276">
+              <caret line="280" column="17" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -51,7 +54,6 @@
       <find>grid-area: im</find>
       <find>button</find>
       <find>nav a</find>
-      <find>blog-button</find>
       <find>justify-self</find>
       <find>role</find>
       <find>menu-con</find>
@@ -62,6 +64,7 @@
       <find>px</find>
       <find>#menu</find>
       <find>git-</find>
+      <find>blog-button</find>
       <find>blog</find>
     </findStrings>
     <replaceStrings>
@@ -91,10 +94,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="264" />
-    <option name="y" value="-978" />
-    <option name="width" value="1304" />
-    <option name="height" value="877" />
+    <option name="x" value="-42" />
+    <option name="y" value="-1003" />
+    <option name="width" value="1694" />
+    <option name="height" value="905" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,34 +111,6 @@
             <path>
               <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ryhanlon.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -363,6 +338,8 @@
       <workItem from="1553749779487" duration="2000" />
       <workItem from="1553965946893" duration="10592000" />
       <workItem from="1554171752252" duration="3825000" />
+      <workItem from="1554183500598" duration="237000" />
+      <workItem from="1554441469440" duration="3138000" />
     </task>
     <task id="LOCAL-00001" summary="Replace README.md file">
       <created>1525838116306</created>
@@ -595,22 +572,30 @@
       <option name="project" value="LOCAL" />
       <updated>1554175638969</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat: links on modal window">
+      <created>1554183733417</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1554183733417</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38757000" />
+    <option name="totallyTimeSpent" value="42132000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="23" width="1304" height="877" extended-state="0" />
+    <frame x="-42" y="-1003" width="1694" height="905" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11229315" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.111985475" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2522293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25215253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -628,13 +613,13 @@
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11229315" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111985475" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2522293" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.25215253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -753,22 +738,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="276">
+          <caret line="280" column="17" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="265" column="42" selection-start-line="265" selection-start-column="42" selection-end-line="265" selection-end-column="42" />
+        <state relative-caret-position="353">
+          <caret line="445" column="13" lean-forward="true" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="162">
+          <caret line="56" column="215" selection-start-line="56" selection-start-column="215" selection-end-line="56" selection-end-column="215" />
         </state>
       </provider>
     </entry>
