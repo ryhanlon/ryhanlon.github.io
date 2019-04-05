@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: links on modal window">
+    <list default="true" id="c26157a3-a3f7-438f-9b42-26ad333c315a" name="Default" comment="feat: links on modal window, aside links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
@@ -15,20 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="445" column="13" lean-forward="true" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
+            <state relative-caret-position="283">
+              <caret line="272" column="16" lean-forward="true" selection-start-line="272" selection-end-line="273" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="56" column="215" selection-start-line="56" selection-start-column="215" selection-end-line="56" selection-end-column="215" />
+            <state relative-caret-position="567">
+              <caret line="74" column="145" lean-forward="true" selection-start-line="74" selection-start-column="145" selection-end-line="74" selection-end-column="145" />
             </state>
           </provider>
         </entry>
@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="280" column="17" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
+            <state relative-caret-position="309">
+              <caret line="196" column="51" lean-forward="true" selection-start-line="196" selection-start-column="51" selection-end-line="196" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/static/js/portfolio.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/static/css/responsive.css" />
-        <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/static/css/main.css" />
       </list>
     </option>
   </component>
@@ -339,7 +339,7 @@
       <workItem from="1553965946893" duration="10592000" />
       <workItem from="1554171752252" duration="3825000" />
       <workItem from="1554183500598" duration="237000" />
-      <workItem from="1554441469440" duration="3138000" />
+      <workItem from="1554441469440" duration="3945000" />
     </task>
     <task id="LOCAL-00001" summary="Replace README.md file">
       <created>1525838116306</created>
@@ -579,11 +579,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554183733417</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feat: links on modal window, aside links">
+      <created>1554444740730</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1554444740730</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42132000" />
+    <option name="totallyTimeSpent" value="42939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-42" y="-1003" width="1694" height="905" extended-state="0" />
@@ -641,7 +648,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Used grid css for project sections, styled buttons." />
     <MESSAGE value="Built hamburger that is animated showing X when open.  Connected to the drawer.  Now drawer closes and the bars return to original position when X is clicked and when screen is clicked." />
     <MESSAGE value="Styled contents of menu drawer, styled footer.  Further refined responsiveness: blog, projects, drawer/menu." />
     <MESSAGE value="Added media query for iPad Pro.  Added Topics aside, began styling." />
@@ -666,7 +672,8 @@
     <MESSAGE value="feat: mobile-responsive" />
     <MESSAGE value="feat: mobile-responsive, tablets and desktop" />
     <MESSAGE value="feat: links on modal window" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: links on modal window" />
+    <MESSAGE value="feat: links on modal window, aside links" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: links on modal window, aside links" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README 2.md" />
@@ -738,22 +745,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="280" column="17" selection-start-line="280" selection-start-column="17" selection-end-line="280" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="445" column="13" lean-forward="true" selection-start-line="445" selection-start-column="13" selection-end-line="445" selection-end-column="13" />
+        <state relative-caret-position="309">
+          <caret line="196" column="51" lean-forward="true" selection-start-line="196" selection-start-column="51" selection-end-line="196" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="56" column="215" selection-start-line="56" selection-start-column="215" selection-end-line="56" selection-end-column="215" />
+        <state relative-caret-position="567">
+          <caret line="74" column="145" lean-forward="true" selection-start-line="74" selection-start-column="145" selection-end-line="74" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="272" column="16" lean-forward="true" selection-start-line="272" selection-end-line="273" />
         </state>
       </provider>
     </entry>

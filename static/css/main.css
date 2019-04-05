@@ -273,31 +273,31 @@ header {
     margin-top: 100px;
 }
 
-.project-2 {
+#project-2 {
     grid-area: project-2;
 }
 
-.project-3 {
+#project-3 {
     grid-area: project-3;
 }
 
-.project-4 {
+#project-4 {
     grid-area: project-4;
 }
 
-.project-5 {
+#project-5 {
     grid-area: project-5;
 }
 
-.project-6 {
+#project-6 {
     grid-area: project-6;
 }
 
-.project-7 {
+#project-7 {
     grid-area: project-7;
 }
 
-.project-8 {
+#project-8 {
     grid-area: project-8;
 }
 
@@ -387,6 +387,7 @@ a:active {
     grid-area: image;
     justify-self: center;
     /*width: 20vw;*/
+    height: 15vw;
     border-radius: 50%;
     border: 2px solid rgba(207, 201, 189, 0.5);
     box-shadow: 2px 3px 11px rgba(3, 2, 0, 0.64);
